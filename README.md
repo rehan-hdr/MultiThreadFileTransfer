@@ -5,26 +5,35 @@ MultithreadFileTransfer is a C application that allows for efficient file transf
 
 ## Features
 
-### Multithreaded File Transfer: Utilizes multithreading to transfer files concurrently, improving efficiency and performance.
+### Multithreaded File Transfer: 
+
+Utilizes multithreading to transfer files concurrently, improving efficiency and performance.
 
 
-### GTK-Based GUI: User-friendly graphical interface for selecting and transferring files.
+### GTK-Based GUI: 
+
+User-friendly graphical interface for selecting and transferring files.
 
 
-### Bidirectional Transfer: Supports transferring files from Folder 1 to Folder 2 and vice versa.
+### Bidirectional Transfer: 
+
+Supports transferring files from Folder 1 to Folder 2 and vice versa.
 
 
-### File Synchronization: Ensures data integrity and proper synchronization during transfer.
+### File Synchronization: 
+
+Ensures data integrity and proper synchronization during transfer.
 
 
-### Thread Synchronization: Implements ticket locks for thread-safe operations.
+### Thread Synchronization: 
+
+Implements ticket locks for thread-safe operations.
 
 
 ## Prerequisites and How to Run the Project
 
 
 Install GTK on your Linux System
-
 
 `$ sudo apt-get install libgtk-3-dev`
 
@@ -34,11 +43,10 @@ Make 2 folders 'folder1' and 'folder2' in the same directory
 
 Compile the source code:
 
-
 `$ gcc -o executableGUI FileTransferGUI.c `pkg-config --cflags --libs gtk+-3.0` -lpthread`
 
-Run the application:
 
+Run the application:
 
 `$ ./executableGUI`
 

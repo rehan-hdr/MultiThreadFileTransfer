@@ -26,7 +26,7 @@ MultithreadFileTransfer is a C application that allows for efficient file transf
 Install GTK on your Linux System
 
 
-sudo apt-get install libgtk-3-dev
+`$ sudo apt-get install libgtk-3-dev`
 
 
 Make 2 folders 'folder1' and 'folder2' in the same directory
@@ -35,22 +35,26 @@ Make 2 folders 'folder1' and 'folder2' in the same directory
 Compile the source code:
 
 
-$ gcc -o executableGUI FileTransferGUI.c `pkg-config --cflags --libs gtk+-3.0` -lpthread
+`$ gcc -o executableGUI FileTransferGUI.c `pkg-config --cflags --libs gtk+-3.0` -lpthread`
 
 Run the application:
 
 
-$ ./executableGUI
+`$ ./executableGUI`
 
 
 ## Technologies and Libraries Used
 C: Core Application logic and programming
+
+
 GTK 3: GUI toolkit used to create the graphical user interface.
+
+
 POSIX Threads (pthread): Used for multithreading support in file transfer operations.
 
 
 ## How It Works
-###Multithreading:
+### Multithreading:
 
 The application creates separate threads for sending and receiving files.
 A named pipe is used for inter-thread communication during file transfer.

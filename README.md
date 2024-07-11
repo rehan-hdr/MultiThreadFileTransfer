@@ -30,6 +30,13 @@ Ensures data integrity and proper synchronization during transfer.
 Implements ticket locks for thread-safe operations.
 
 
+## GUI 
+
+
+![image](https://github.com/rehan-hdr/MultiThreadFileTransfer/assets/123321515/1edff9ac-2fe2-4d22-8b3b-b351fe978730)
+
+
+
 ## Prerequisites and How to Run the Project
 
 
